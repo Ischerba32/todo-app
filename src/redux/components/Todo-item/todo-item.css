@@ -13,9 +13,6 @@
   position: relative;
 }
 
-.text {
-  font-family: 'Indie Flower', cursive;
-}
 
 .completed {
   text-decoration: line-through;
@@ -34,6 +31,7 @@
 .mark {
   position: absolute;
   left: 20px;
+  top: 20px;
 }
 
 .todo-item:hover .fa-times {
